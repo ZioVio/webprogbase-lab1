@@ -1,33 +1,54 @@
 body {
     width: 1200px;
     margin: 0px auto;
-    border: 5px dotted red;
+    background-color: lightskyblue;
 }
-
 .header img {
     display: inline-block;
+}
+
+.header h2 {
+    padding-left: 140px;
+    display: inline-block;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif; /*@todo learn*/
+    font-size: 50px;
 }
 
 .menu ul {
     padding-left: 10px;
 }
-
-.header h2 {
-    padding-left: 50px;
-    display: inline-block;
-    margin: 0%;
-    font-family: Arial, Helvetica, sans-serif; /*@todo learn*/
+.menu ul a {
+    font-size: 35px;
 }
 
-.menu {
-    vertical-align: top;
-    /* top: -270px; */
+
+
+.data {
     position: relative;
-    display: inline-block;
-    border: 1px dotted black;
 }
 
-.content {
-    display: inline-block;
-    border: 2px indigo double;
+.data .menu {
+    /* vertical-align: top; */
+    width: 10%;
+    float: left;
+    padding-left: 2px;
+    /* border: 1px dotted black; */
+}
+
+.data .content {
+    float: right;
+    width: 77%;
+    border: 4px blue groove;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content p {
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content i {
+    font-size: 30px;
 }
