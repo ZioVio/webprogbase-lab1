@@ -29,7 +29,6 @@ body {
 }
 
 .data .menu {
-    /* vertical-align: top; */
     width: 200px;
     float: left;
     padding-left: 2px;
@@ -39,9 +38,6 @@ body {
 .data .content {
     float: right;
     width: 950px;
-    /* border-left: 20px #1b657d solid;
-    border-right: 20px #1b657d solid;
-    border-top: 5px #1b657d solid; */
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
