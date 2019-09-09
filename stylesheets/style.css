@@ -2,7 +2,7 @@ body {
     width: 1200px;
     min-height: 100vh;
     margin: 0px auto;
-    background-color: #65bad6;
+    background-color: #aeb2cf;
 }
 
 .header img {
@@ -45,7 +45,8 @@ body {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: bisque;
+    background-color:  white;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
 }
 
 .table_content a {
