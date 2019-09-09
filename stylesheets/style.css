@@ -26,6 +26,7 @@ body {
 
 .data {
     position: relative;
+    width: inherit;
 }
 
 .data .menu {
@@ -41,30 +42,33 @@ body {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+    background-color: bisque;
 }
 
-.users_table {
-    display: inline-block;
-    position: relative;
-    top: 50px;
-}
-
-.users_table a {
+.table_content a {
     font-size: 25px;
     font-family: monospace;
 }
 
-.users_table {
+.table_content {
+    display: inline-block;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 100%;
+    display: table;
     border-collapse: separate;
     border-spacing: 0px;
-}
-.users_table tr {
-    font-size: 30px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: inherit;
 }
 
-.users_table caption {
+.table_content tr {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.table_content caption {
     font-size: 50px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -96,4 +100,54 @@ body {
 
 #username {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.puzzle_data {
+    display: inline-block;
+    position: relative;
+    /* top: -25px; */
+    left: 10px;
+    width: 90%;
+}
+
+.puzzle_data img {
+    position: relative;
+    top: 18px;
+}
+
+.puzzle_data p {
+    font-size: 22px;
+}
+
+.puzzle_data h1 {
+    margin-top: 0px;
+}
+
+.puzzle_price {
+    position: relative;
+    right: 50px;
+    float: right;
+}
+
+.puzzle_price b {
+    font-size: 32px;
+}
+
+.puzzle_price p {
+    font-size: 29px;
+}
+
+.puzzle_short_info {
+    display: inline-block;
+    width: 75%;
+    /* float: right; */
+}
+
+.puzzle_specs {
+    display: inline-block;
+    width: 50%;
+}
+
+.puzzle_bio p {
+    font-size: 15px;
 }
