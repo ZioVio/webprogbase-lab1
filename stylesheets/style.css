@@ -88,6 +88,8 @@ nav li a:hover {
     /* border: 1px dotted black; */
 }
 
+/* @todo each puzzle is a flex-block */
+
 .data .content {
     float: right;
     width: 950px;
@@ -147,7 +149,7 @@ nav li a:hover {
 
 /* @todo styles .puzzles_table */
 
-#user_bio {
+#user_bio p{
     font-size: 22px;
 }
 
