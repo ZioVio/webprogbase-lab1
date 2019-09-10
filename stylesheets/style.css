@@ -2,6 +2,7 @@ body {
     width: 1200px;
     min-height: 100vh;
     margin: 0px auto;
+    padding-bottom: 50px;
     /* background-color: #51d4ce; */
     /* background: rgba(0,0,0,0.5) url(../img/background.jpg); */
     /* background-color: rgba(0,0,0,0.5) */
@@ -69,21 +70,24 @@ nav li a:hover {
 
 .menu ul {
     padding-left: 0;
+    margin-top: 15px;
     list-style-type: none;
     width: 100%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 .menu ul a {
     display: inline-block;
     background-color: rgb(60, 166, 228);
     padding: 7px;
     color: white;
-    font-size: 31px;
+    font-size: 30px;
     width: 100%;
     text-decoration: none;
 }
 
 .menu ul a:hover {  
-    background-color: #111;
+    transition: 1s;
+    background-color: rgb(44, 116, 175);
 }
 
 .data {
@@ -141,7 +145,7 @@ nav li a:hover {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.content p {
+.data {
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -203,6 +207,24 @@ nav li a:hover {
 
 .puzzle_price p {
     font-size: 29px;
+}
+
+.puzzle_price #btn_buy {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+
+.puzzle_price #btn_buy:hover {
+    background: rgb(37, 167, 99);
+    cursor: pointer;
 }
 
 .puzzle_short_info {
