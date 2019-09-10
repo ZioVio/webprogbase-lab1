@@ -2,13 +2,56 @@ body {
     width: 1200px;
     min-height: 100vh;
     margin: 0px auto;
-    background-color: #aeb2cf;
+    /* background-color: #51d4ce; */
+    /* background: rgba(0,0,0,0.5) url(../img/background.jpg); */
+    /* background-color: rgba(0,0,0,0.5) */
+}
+nav {
+    box-shadow:  2px 2px 10px rgba(0,0,0,0.5);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+
+nav li a:hover {
+    background-color: #111;
+}
+
+.header i{
+    position: relative;
+    right: 234px;
+    bottom: 45px;
+    font-size: 26px;
 }
 
 .header img {
     display: inline-block;
     width: 230px;
+    border-radius: 10px;
 }
+
+.site_name {
+    display: inline-block;
+}
+
 
 .header h2 {
     left: 40px;
@@ -20,8 +63,13 @@ body {
     vertical-align: 90px;
 }
 
+.menu {
+    display: block;
+}
+
 .menu ul {
     padding-left: 10px;
+    list-style-type: none;
 }
 .menu ul a {
     font-size: 35px;
@@ -30,6 +78,7 @@ body {
 .data {
     position: relative;
     width: inherit;
+    height: 100%;
 }
 
 .data .menu {
@@ -46,11 +95,11 @@ body {
     padding-left: 10px;
     padding-right: 10px;
     background-color:  white;
-    box-shadow: 2px 2px 20px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
 
 .table_content a {
-    font-size: 25px;
+    font-size: 22px;
     font-family: monospace;
 }
 
@@ -67,7 +116,7 @@ body {
 }
 
 .table_content tr {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
@@ -157,9 +206,9 @@ body {
 }
 
 footer {
-    height: 100px;
-    width: inherit;
+    /* height: 100px;
+    width: inherit; */
     background-color: chartreuse;
-    position: absolute;
-    bottom: 0;
+    position: relative;
+    bottom: 0px;
 }
