@@ -1,12 +1,19 @@
+html {
+    min-height: 100%;
+}
+
+html, body {
+    overflow: auto;
+}
+
 body {
     width: 1200px;
-    min-height: 100vh;
+    position:relative;
+    height: 100%;
     margin: 0px auto;
     padding-bottom: 50px;
-    /* background-color: #51d4ce; */
-    /* background: rgba(0,0,0,0.5) url(../img/background.jpg); */
-    /* background-color: rgba(0,0,0,0.5) */
 }
+
 nav {
     box-shadow:  2px 2px 10px rgba(0,0,0,0.5);
 }
@@ -91,6 +98,7 @@ nav li a:hover {
 }
 
 .data {
+    display: block;
     position: relative;
     width: inherit;
     height: 100%;
@@ -106,6 +114,7 @@ nav li a:hover {
 /* @todo each puzzle is a flex-block */
 
 .data .content {
+    display: block;
     float: right;
     width: 950px;
     margin-top: 15px;
@@ -195,9 +204,10 @@ nav li a:hover {
 }
 
 .puzzle_price {
+    display: inline-block;
     position: relative;
     right: 50px;
-    top: 50px;
+    top: -10px;
     float: right;
 }
 
@@ -229,13 +239,20 @@ nav li a:hover {
 
 .puzzle_short_info {
     display: inline-block;
-    width: 75%;
+    width: 100%;
     /* float: right; */
 }
 
 .puzzle_specs {
+    /* float: right; */
     display: inline-block;
-    width: 70%;
+    /* width: 70%; */
+}
+
+.puzzle_specs table {
+    display: block;
+    text-align: left;
+    border-spacing: 20px;
 }
 
 .puzzle_bio p {
@@ -243,9 +260,13 @@ nav li a:hover {
 }
 
 footer {
-    /* height: 100px;
-    width: inherit; */
-    background-color: chartreuse;
-    position: relative;
-    bottom: 0px;
+    /* margin-top: 200px; */
+    display: block;
+    color: white;
+    font-size: 20px;
+    background:rgb(60, 166, 228);
+    position: absolute;
+    bottom: 0; 
+    left: 0; 
+    right: 0;
 }
