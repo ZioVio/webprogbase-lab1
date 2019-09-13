@@ -141,7 +141,7 @@ nav li a:hover {
 }
 
 .menu {
-    width: 220px;
+    width: 19%;
     float: left;
     padding-left: 2px;
     display: block;
@@ -152,14 +152,16 @@ nav li a:hover {
 .data .content {
     display: block;
     float: right;
-    width: 950px;
+    position: relative;
+    margin-right: 1%;
+    width: 75%;
     margin-top: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     background-color:  white;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.6);
 }
 
 .table_content a {
@@ -176,7 +178,6 @@ nav li a:hover {
     display: table;
     border-collapse: separate;
     border-spacing: 0px;
-    width: inherit;
 }
 
 .table_content tr {
@@ -200,7 +201,7 @@ nav li a:hover {
 }
 
 .user_info {
-    width: 600px;
+    width: 60%;
     float: right;
     font-size: 22px;
 }
@@ -321,4 +322,72 @@ footer {
     bottom: 0; 
     left: 0; 
     right: 0;
+}
+
+content_puzzles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.puzzle_block p {
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+.puzzle_block caption {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+.puzzle_block img {
+    margin: 0 auto;
+    display: block;
+}
+
+.puzzle_block a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+
+.puzzle_block {
+    display: inline-block;
+    margin: 10px;
+    width: 28%;
+    min-height: 350px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.puzzle_block img {
+    width: 100%;
+}
+
+puzzle_block_price {
+    width: 100%;
+}
+
+#btn_block_buy:hover {
+    cursor: pointer;
+}
+
+#btn_block_buy {
+    position: relative;
+    right: 4%;
+    bottom: 50%;
+    background: rgb(64,199,129);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+    float: right;
+}
+
+.puzzle_block_price img, .puzzle_block_price table{
+    display: inline;
+    font-size: 15px;
 }
