@@ -50,6 +50,45 @@ nav li a:hover {
     font-size: 26px;
 }
 
+
+.filter_container .filter_box p {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.filter_container .filter_box table {
+    width: 100%;
+}
+
+.filter_container .filter_box td {
+    width: auto;
+}
+
+.filter_container .filter_box input:hover {
+    cursor: pointer;
+}
+
+.filter_container .filter_box caption{
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+}
+
+.filter_container .filter_box caption:hover{
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(211, 211, 211);
+}
+
+
+.filter_container {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
 .header img {
     display: inline-block;
     width: 230px;
@@ -71,9 +110,6 @@ nav li a:hover {
     vertical-align: 90px;
 }
 
-.menu {
-    display: block;
-}
 
 .menu ul {
     padding-left: 0;
@@ -87,8 +123,8 @@ nav li a:hover {
     background-color: rgb(60, 166, 228);
     padding: 7px;
     color: white;
-    font-size: 30px;
-    width: 100%;
+    font-size: 28px;
+    width: 94%;
     text-decoration: none;
 }
 
@@ -104,11 +140,11 @@ nav li a:hover {
     height: 100%;
 }
 
-.data .menu {
-    width: 200px;
+.menu {
+    width: 220px;
     float: left;
     padding-left: 2px;
-    /* border: 1px dotted black; */
+    display: block;
 }
 
 /* @todo each puzzle is a flex-block */
@@ -226,6 +262,22 @@ nav li a:hover {
     color: white;
     text-decoration: none;
     padding: 20px;
+    border-radius: 10px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+}
+
+.filter_container #btn_filter {
+    display: block;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
     border-radius: 10px;
     background: rgb(64,199,129);
     box-shadow: 0 -3px rgb(53,167,110) inset;
